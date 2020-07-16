@@ -10,7 +10,9 @@ font-family: 'Inconsolata', monospace;
 
 body {
   font-family: 'Inconsolata', monospace;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.918) !important;
+  background-image: url('https://imgur.com/pOouflz.png');
+  background-blend-mode: color;
   word-spacing: 1px;
   font-size: 18px;
   color: #2b2b2b;
