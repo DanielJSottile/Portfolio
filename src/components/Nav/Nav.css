@@ -1,0 +1,30 @@
+nav {
+  margin: 20px;
+}
+
+a {
+  font-family: 'Bungee Inline', cursive;
+  color: #2b2b2b;;
+  background-color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  
+}
+
+a:hover {
+  color: white;
+  background-color: #000092;
+  border: 1px solid white;
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+@media only screen and (min-width: 1000px) {
+  a {
+    font-size: 22px;
+   }
+}
