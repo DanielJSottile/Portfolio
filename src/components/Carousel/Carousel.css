@@ -1,5 +1,5 @@
 #carousel { 
-  perspective: 200px; 
+  perspective: 400px; 
   padding-top: 4rem; 
   font-size:0; 
   margin-left: auto;
@@ -10,17 +10,17 @@
 
 figure#spinner { 
   transform-style: preserve-3d; 
-  height: 400px; 
+  height: 200px; 
   transform-origin: 50% 50% -500px; 
   transition: 1s; 
 } 
 
 figure#spinner img { 
-  width: 60%; max-width: 525px; 
+  width: 75%; max-width: 525px; 
   position: absolute; left: 30%;
   transform-origin: 50% 50% -500px;
   outline:1px solid transparent; 
-  margin: auto;
+  margin: 0;
 }
 
 figure#spinner img:nth-child(1) { transform: rotateY(0deg); }
@@ -47,12 +47,28 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   border-radius: 10px;
 }
 
+@media only screen and (min-width: 400px) {
+  
+  figure#spinner { 
+    height: 250px; 
+  } 
+  
+}
+
+@media only screen and (min-width: 500px) {
+  
+  figure#spinner { 
+    height: 300px; 
+  } 
+  
+}
+
 @media only screen and (min-width: 600px) {
   #carousel { 
     perspective: 400px; 
   }
   figure#spinner { 
-    height: 450px; 
+    height: 350px; 
   } 
   figure#spinner img { 
     width: 60%;
@@ -65,7 +81,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   }
 
   figure#spinner { 
-    height: 550px; 
+    height: 350px; 
   } 
 
   figure#spinner img { 
@@ -81,13 +97,13 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 850px) {
   figure#spinner { 
-    height: 600px; 
+    height: 400px; 
   } 
 }
 
 @media only screen and (min-width: 900px) {
   figure#spinner { 
-    height: 650px; 
+    height: 450px; 
   } 
 }
 
@@ -97,7 +113,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   }
 
   figure#spinner { 
-    height: 600px; 
+    height: 500px; 
   } 
 
   figure#spinner img { 
