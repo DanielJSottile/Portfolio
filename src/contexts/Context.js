@@ -31,7 +31,7 @@ export class ContextProvider extends Component {
           repo1: 'https://github.com/DanielJSottile/poketeams-client',
           repo2: 'https://github.com/DanielJSottile/poketeams-server',
           livePage: 'https://poketeams.now.sh/',
-          desc: 'Thinkful E.I.\'s 1st Capstone project, this full-stack application was created over a 2-week period with React and Node.js, and is easily the largest and most complicated of my projects.  PokeTeams is an application for creating and storing Pokemon Showdown teams in a permanent database as opposed to current pastebin solutions.',
+          desc: 'Thinkful E.I.\'s 1st Capstone project, this full-stack application was created over a 2-week period with React and Node.js, and is easily the largest and most complicated of my projects.  PokeTeams is an application for creating and storing Pokemon Showdown teams in a permanent database as opposed to current pastebin solutions. In the future, this application will be fully open to the public and add many more features as necessary, becoming even larger and incorporating new technologies!',
           techStack: {
             'HTML5': <i className="fab fa-html5"></i>, 
             'CSS': <i className="fab fa-css3-alt"></i>, 
