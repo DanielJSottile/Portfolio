@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Carousel from '../../components/Carousel/Carousel';
 
-const ProjectsPage = () => {
+const ProjectsPage = (props) => {
   return (
     <Fragment>
       <div>

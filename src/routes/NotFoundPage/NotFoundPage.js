@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-const NotFoundPage = () => {
+const NotFoundPage = (props) => {
   return (
     <Fragment>
       <div>

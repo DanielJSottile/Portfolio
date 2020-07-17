@@ -1,9 +1,12 @@
-import React, { Fragment } from 'react'
-import './Project.css'
+import React, { Fragment } from 'react';
+import TechStack from '../TechStack/TechStack';
+import './Project.css';
 
 const Project = (props) => {
 
   const {project} = props
+
+  const tech = Object.entries(project.techStack);
   
   return (
     <Fragment>
@@ -15,6 +18,8 @@ const Project = (props) => {
           {project.repo2 && <a target="_blank" rel="noopener noreferrer" href={project.repo2}>Server Repo</a>}
         </div>
         <p className='project-desc'>{project.desc}</p>
+        <h3>Tech Stack:</h3>
+        <TechStack tech={tech}/>
       </div>
     </Fragment>
   );

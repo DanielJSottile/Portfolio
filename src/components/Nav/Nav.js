@@ -2,23 +2,23 @@ import React, { Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.css'
 
-const navLinks = () => {
+const navLinks = (props) => {
   return (
     <Fragment>
       <NavLink  
         className='nav-link'
         to = '/' >
-        About
+        About <i className="fas fa-book"></i>
       </NavLink> 
       <NavLink  
         className='nav-link'
         to = '/projects' >
-        Projects
+        Projects <i className="fas fa-scroll"></i>
       </NavLink>
       <NavLink  
         className='nav-link'
         to = '/contact' >
-        Contact
+        Contact <i className="fas fa-address-card"></i>
       </NavLink> 
     </Fragment>
   )

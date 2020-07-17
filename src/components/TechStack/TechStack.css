@@ -1,0 +1,13 @@
+.tech {
+  width: 30%;
+  list-style: none;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+}
