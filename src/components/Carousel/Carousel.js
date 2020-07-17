@@ -14,18 +14,18 @@ const Carousel = (props) => {
 
   const galleryspin = (sign) => { 
     if (!sign) { 
-      setState(oldVals => ({...oldVals, angle: state.angle + 90})) 
-      if (state.project < 4) {
+      setState(oldVals => ({...oldVals, angle: state.angle + 72})) 
+      if (state.project < 5) {
         setState(oldVals => ({...oldVals, project: state.project + 1})) 
       } else {
         setState(oldVals => ({...oldVals, project: 1}))
       }
      } else { 
-      setState(oldVals => ({...oldVals, angle: state.angle - 90})) 
+      setState(oldVals => ({...oldVals, angle: state.angle - 72})) 
       if (state.project > 1) {
         setState(oldVals => ({...oldVals, project: state.project - 1})) 
       } else {
-        setState(oldVals => ({...oldVals, project: 4}))
+        setState(oldVals => ({...oldVals, project: 5}))
       }
     }
   }
@@ -36,6 +36,7 @@ const Carousel = (props) => {
         <div id="carousel">
           <figure style={{transform: `rotateY(${state.angle}deg`}} ref={spinnerRef} id="spinner">
             <img className="image" src='https://imgur.com/zZhoPU2.png' alt="QuizApp"/>
+            <img className="image" src='https://imgur.com/BDi7aMT.png' alt="Peftul"/>
             <img className="image" src="https://imgur.com/XIQeVp3.png" alt="PokeTeams"/>
             <img className="image" src="https://imgur.com/Ou2b4X5.png" alt="Oratore"/>
             <img className="image" src="https://imgur.com/Uugvuyt.png" alt="PennyThoughts"/>
