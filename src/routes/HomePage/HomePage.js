@@ -11,7 +11,7 @@ export default function HomePage(props) {
           <p>
             I am a fullstack JavaScript web developer and a graduate of the Engineering Immersion bootcamp at Thinkful in 2020. 
             I love solving problems with new kinds of tech and I hope to be able to share this enthusiasm with others on a team with other equally enthusiastic programmers!
-            I'm really interested in AI advancements and programs that can learn to solve problems on their own.
+            I'm really interested in AI advancements and programs that can learn to solve problems on their own. I specialize in React for frontend and Node.js for backend applications.
           </p>
           <p>
             When I'm not coding, I'm often working on composing film and video game music, some for my own 

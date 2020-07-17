@@ -4,13 +4,13 @@
   font-size:0; 
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3rem; 
+  margin-bottom: 0rem; 
   overflow: hidden; 
 }
 
 figure#spinner { 
   transform-style: preserve-3d; 
-  height: 200px; 
+  height: 300px; 
   transform-origin: 50% 50% -500px; 
   transition: 1s; 
 } 
@@ -50,7 +50,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 @media only screen and (min-width: 400px) {
   
   figure#spinner { 
-    height: 250px; 
+    height: 350px; 
   } 
   
 }
@@ -58,18 +58,20 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 @media only screen and (min-width: 500px) {
   
   figure#spinner { 
-    height: 300px; 
+    height: 400px; 
   } 
   
 }
 
 @media only screen and (min-width: 600px) {
   #carousel { 
-    perspective: 400px; 
+    perspective: 600px; 
   }
+
   figure#spinner { 
-    height: 350px; 
+    height: 400px; 
   } 
+
   figure#spinner img { 
     width: 60%;
   }
@@ -77,34 +79,59 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 700px) {
   #carousel { 
-    perspective: 600px; 
+    perspective: 1200px; 
   }
 
   figure#spinner { 
-    height: 350px; 
+    height: 425px; 
   } 
 
   figure#spinner img { 
-    width: 60%;
+    width: 50%;
   }
 }
 
 @media only screen and (min-width: 800px) {
   #carousel { 
-    perspective: 800px; 
+    perspective: 1200px; 
+  }
+
+  figure#spinner { 
+    height: 425px; 
+  } 
+
+  figure#spinner img { 
+    width: 50%;
   }
 }
 
 @media only screen and (min-width: 850px) {
+  #carousel { 
+    perspective: 1200px; 
+  }
+
   figure#spinner { 
-    height: 400px; 
+    height: 425px; 
   } 
+
+  figure#spinner img { 
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 900px) {
+
+  #carousel { 
+    perspective: 1200px; 
+  }
+
   figure#spinner { 
-    height: 450px; 
+    height: 425px; 
   } 
+
+  figure#spinner img { 
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -113,7 +140,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   }
 
   figure#spinner { 
-    height: 500px; 
+    height: 425px; 
   } 
 
   figure#spinner img { 

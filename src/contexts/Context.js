@@ -144,8 +144,7 @@ export class ContextProvider extends Component {
         'Cypress':  null, 
         'TensorFlow.js': null, 
         'Crypto-js': null, 
-        'Python': <i className="fab fa-python"></i>, 
-        'Kontakt Scripting':  null
+        'Python': <i className="fab fa-python"></i>
        },
     }
   }
