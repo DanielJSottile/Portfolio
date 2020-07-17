@@ -27,6 +27,22 @@ export class ContextProvider extends Component {
         },
         {
           id: 2,
+          name: 'Petful',
+          repo1: 'https://github.com/thinkful-ei-narwhal/DSA-Petful-client-Cesar-Daniel',
+          repo2: 'https://github.com/thinkful-ei-narwhal/DSA-Petful-api-Cesar-Daniel',
+          livePage: 'https://petful-alpha.vercel.app/',
+          desc: 'A challenge project during Thinkful\'s E.I. program, this project was meant to recap our study of Data Structures and Algorithms, and this app specifically employed Queues in order to deal with adoptees and pets in the shelter.  We even went the extra mile and incorporated them into our React App, which made State very tricky!',
+          techStack: {
+            'HTML5': <i className="fab fa-html5"></i>, 
+            'CSS': <i className="fab fa-css3-alt"></i>, 
+            'JavaScript': <i className="fab fa-js"></i>, 
+            'React': <i className="fab fa-react"></i>, 
+            'Node.js': <i className="fab fa-node-js"></i>,
+            'Express': null
+           },
+        },
+        {
+          id: 3,
           name: 'PokeTeams',
           repo1: 'https://github.com/DanielJSottile/poketeams-client',
           repo2: 'https://github.com/DanielJSottile/poketeams-server',
@@ -52,7 +68,7 @@ export class ContextProvider extends Component {
            },
         },
         {
-          id: 3,
+          id: 4,
           name: 'Spaced Repetition - Oratore',
           repo1: 'https://github.com/thinkful-ei-narwhal/Spaced-Repetition-client-Joseph-Daniel',
           repo2: 'https://github.com/thinkful-ei-narwhal/Spaced-Repetition-server-Joseph-Daniel',
@@ -79,7 +95,7 @@ export class ContextProvider extends Component {
            },
         },
         {
-          id: 4,
+          id: 5,
           name: 'Penny Thoughts',
           repo1: 'https://github.com/thinkful-ei-narwhal/penny-thoughts-client',
           repo2: 'https://github.com/thinkful-ei-narwhal/penny-thoughts-server',
