@@ -17,7 +17,7 @@ export class ContextProvider extends Component {
           repo1: 'https://github.com/thinkful-ei-narwhal/quiz-app-boilerplate-chadwick-daniel',
           repo2: null,
           livePage: 'https://thinkful-ei-narwhal.github.io/quiz-app-boilerplate-chadwick-daniel/',
-          desc: 'A simple quiz app created in JQuery based on Anime.  It was create while studying at Thinkful.',
+          desc: 'A simple quiz app created in jQuery based on anime trivia.  While it was intended to be done with a partner, my partner was mostly absent while creating it.  This was created while studying at Thinkful.',
           techStack: {
             'HTML5': <i className="fab fa-html5"></i>, 
             'CSS': <i className="fab fa-css3-alt"></i>, 
