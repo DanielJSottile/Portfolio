@@ -1,33 +1,71 @@
+/* By Dudely Storey on CodePen 
+https://codepen.io/dudleystorey
+https://codepen.io/dudleystorey/pen/kiajB */
+
 #carousel { 
   perspective: 400px; 
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -ms-perspective: 400px;
   padding-top: 4rem; 
   font-size:0; 
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 0rem; 
   overflow: hidden; 
 }
 
 figure#spinner { 
   transform-style: preserve-3d; 
+  -webkit-transform-style: preserve-3d; 
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
   height: 300px; 
   transform-origin: 50% 50% -500px; 
+  -moz-transform-origin: 50% 50% -500px; 
+  -ms-transform-origin: 50% 50% -500px; 
   transition: 1s; 
 } 
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    figure#spinner { 
+        -webkit-transform-origin: center;
+    }
+}}
+
+/* Safari 10.1 */
+@media not all and (min-resolution:.001dpcm){ 
+@supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+  figure#spinner { 
+    -webkit-transform-origin: center;
+    }
+}}
+
+/* Safari 6.1-10.0 (not 10.1) */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
+@media {
+  figure#spinner { 
+    -webkit-transform-origin: center;
+    }
+}}
+
 
 figure#spinner img { 
   width: 75%; max-width: 525px; 
   position: absolute; left: 30%;
+  -webkit-transform-origin: 50% 50% -500px;
+  -moz-transform-origin: 50% 50% -500px; 
+  -ms-transform-origin: 50% 50% -500px; 
   transform-origin: 50% 50% -500px;
   outline:1px solid transparent; 
   margin: 0;
 }
 
-figure#spinner img:nth-child(1) { transform: rotateY(0deg); }
-figure#spinner img:nth-child(2) { transform: rotateY(-72deg); }
-figure#spinner img:nth-child(3) { transform: rotateY(-144deg); }
-figure#spinner img:nth-child(4) { transform: rotateY(-216deg); }
-figure#spinner img:nth-child(5) { transform: rotateY(-288deg); }
+figure#spinner img:nth-child(1) { transform: rotateY(0deg); -webkit-transform: rotateY(0deg);}
+figure#spinner img:nth-child(2) { transform: rotateY(-72deg); -webkit-transform: rotateY(-72deg);}
+figure#spinner img:nth-child(3) { transform: rotateY(-144deg); -webkit-transform: rotateY(-144deg);}
+figure#spinner img:nth-child(4) { transform: rotateY(-216deg); -webkit-transform: rotateY(-216deg);}
+figure#spinner img:nth-child(5) { transform: rotateY(-288deg); -webkit-transform: rotateY(-288deg);}
 
 div#carousel ~ span { 
   color: #2b2b2b; 
@@ -93,6 +131,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 600px) {
   #carousel { 
+    -webkit-perspective: 600px;
     perspective: 600px; 
   }
 
@@ -107,6 +146,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 700px) {
   #carousel { 
+    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 
@@ -121,6 +161,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 800px) {
   #carousel { 
+    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 
@@ -135,6 +176,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 850px) {
   #carousel { 
+    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 
@@ -150,6 +192,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 @media only screen and (min-width: 900px) {
 
   #carousel { 
+    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 
@@ -164,6 +207,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 
 @media only screen and (min-width: 1000px) {
   #carousel { 
+    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 

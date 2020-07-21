@@ -1,3 +1,8 @@
+/* Original JS code by Dudely Storey on CodePen 
+However, the React refactor was created by myself!
+https://codepen.io/dudleystorey
+https://codepen.io/dudleystorey/pen/kiajB */
+
 import React, { Fragment, useContext, useState} from 'react';
 import Context from '../../contexts/Context';
 import Project from '../Project/Project';

@@ -3,6 +3,22 @@
   list-style: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  .tech:hover {
+    color: yellow;
+    transition: 0.3s;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .tech:hover {
+    color: blue;
+    transition: 0.3s;
+  }
+}
+
+
+
 .tech-stack {
   display: flex;
   flex-direction: row;

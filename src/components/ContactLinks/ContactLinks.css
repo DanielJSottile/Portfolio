@@ -1,3 +1,8 @@
 .contact-link {
+  display: inline-block;
   font-size: 26px;
+}
+
+.contacts {
+  display: inline-block;
 }
