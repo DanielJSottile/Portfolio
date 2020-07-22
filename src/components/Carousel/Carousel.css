@@ -1,10 +1,11 @@
 /* By Dudely Storey on CodePen 
 https://codepen.io/dudleystorey
-https://codepen.io/dudleystorey/pen/kiajB */
+https://codepen.io/dudleystorey/pen/kiajB 
+** DOES NOT WORK PROPERLY ON SAFARI! TOO BAD** 
+*/
 
 #carousel { 
   perspective: 400px; 
-  -webkit-perspective: 400px;
   -moz-perspective: 400px;
   -ms-perspective: 400px;
   padding-top: 4rem; 
@@ -15,7 +16,6 @@ https://codepen.io/dudleystorey/pen/kiajB */
 
 figure#spinner { 
   transform-style: preserve-3d; 
-  -webkit-transform-style: preserve-3d; 
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   height: 300px; 
@@ -28,14 +28,21 @@ figure#spinner {
 /* Safari 11+ */
 @media not all and (min-resolution:.001dpcm)
 { @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-    figure#spinner { 
-        -webkit-transform-origin: center;
+  
+    #carousel { 
+      -webkit-perspective: 1200px; 
     }
+
+    figure#spinner { 
+      -webkit-transform-origin: center;
+    }
+    
 }}
 
 /* Safari 10.1 */
 @media not all and (min-resolution:.001dpcm){ 
 @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+
   figure#spinner { 
     -webkit-transform-origin: center;
     }
@@ -44,6 +51,7 @@ figure#spinner {
 /* Safari 6.1-10.0 (not 10.1) */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
 @media {
+
   figure#spinner { 
     -webkit-transform-origin: center;
     }
@@ -118,7 +126,6 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
   figure#spinner { 
     height: 350px; 
   } 
-  
 }
 
 @media only screen and (min-width: 500px) {
@@ -130,8 +137,9 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 @media only screen and (min-width: 600px) {
+
+
   #carousel { 
-    -webkit-perspective: 600px;
     perspective: 600px; 
   }
 
@@ -145,69 +153,8 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
 }
 
 @media only screen and (min-width: 700px) {
-  #carousel { 
-    -webkit-perspective: 1200px;
-    perspective: 1200px; 
-  }
-
-  figure#spinner { 
-    height: 425px; 
-  } 
-
-  figure#spinner img { 
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  #carousel { 
-    -webkit-perspective: 1200px;
-    perspective: 1200px; 
-  }
-
-  figure#spinner { 
-    height: 425px; 
-  } 
-
-  figure#spinner img { 
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 850px) {
-  #carousel { 
-    -webkit-perspective: 1200px;
-    perspective: 1200px; 
-  }
-
-  figure#spinner { 
-    height: 425px; 
-  } 
-
-  figure#spinner img { 
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 900px) {
 
   #carousel { 
-    -webkit-perspective: 1200px;
-    perspective: 1200px; 
-  }
-
-  figure#spinner { 
-    height: 425px; 
-  } 
-
-  figure#spinner img { 
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  #carousel { 
-    -webkit-perspective: 1200px;
     perspective: 1200px; 
   }
 

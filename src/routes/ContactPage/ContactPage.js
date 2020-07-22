@@ -12,7 +12,7 @@ const ContactPage = (props) => {
     <Fragment>
     <h2 className="heading fade-in-right">Contact</h2>
       <div className="contact-stuff">
-        <div className="word-container fade-in-bottom">
+        <div className="contact-container fade-in-bottom">
           <p>
             I'm open for job opportunities!  Feel free to contact me and check out
             my various profiles!

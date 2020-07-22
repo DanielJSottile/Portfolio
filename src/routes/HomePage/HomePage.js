@@ -3,11 +3,11 @@ import React, { Fragment } from 'react'
 export default function HomePage(props) {
   return (
     <Fragment>
-      <div>
+      <div className="full-container">
         <h2 className="heading fade-in-left">About</h2>
         <h3 className="subheading fade-in-bottom">I'm Daniel! I'm a frontend / backend JavaScript web developer!</h3>
         <div className="word-container fade-in-bottom">
-          <img className="profile-picture" src="https://imgur.com/StFdhLK.png" alt="profile"/>
+          <img className="profile-picture" src="https://imgur.com/YHikvd8.png" alt="profile"/>
           <div className="paras">
             <p>
               My name is Daniel!  I am a fullstack JavaScript web developer and a graduate of the Engineering Immersion bootcamp at Thinkful in 2020. 
