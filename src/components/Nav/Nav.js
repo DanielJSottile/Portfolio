@@ -7,12 +7,12 @@ const navLinks = (props) => {
     <Fragment>
       <NavLink  
         className='nav-link'
-        to = '/' >
+        to = '/about' >
         About <i className="fas fa-book"></i>
       </NavLink> 
       <NavLink  
         className='nav-link'
-        to = '/projects' >
+        to = '/' >
         Projects <i className="fas fa-scroll"></i>
       </NavLink>
       <NavLink  

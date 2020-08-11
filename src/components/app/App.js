@@ -1,7 +1,7 @@
 import React, {Fragment } from 'react';
 import {Route, Switch} from 'react-router-dom';
 import NotFoundPage from '../../routes/NotFoundPage/NotFoundPage';
-import HomePage from '../../routes/HomePage/HomePage';
+import AboutPage from '../../routes/AboutPage/AboutPage';
 import ProjectsPage from '../../routes/ProjectsPage/ProjectsPage';
 import ContactPage from '../../routes/ContactPage/ContactPage';
 import ErrorPage from '../ErrorPage/ErrorPage';
@@ -18,10 +18,10 @@ function App() {
           <Switch>
             <Route
               exact path = {'/'}
-              component = {HomePage}/>
-            <Route
-              path = {'/projects'}
               component = {ProjectsPage}/>
+            <Route
+              path = {'/about'}
+              component = {AboutPage}/>
             <Route
               path = {'/contact'}
               component = {ContactPage}/>
