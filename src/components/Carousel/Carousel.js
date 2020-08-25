@@ -40,11 +40,11 @@ const Carousel = (props) => {
       <div className="fade-in-bottom">
         <div id="carousel">
           <figure style={{transform: `rotateY(${state.angle}deg`}} ref={spinnerRef} id="spinner">
-            <img className="image" src='https://imgur.com/zZhoPU2.png' alt="QuizApp"/>
-            <img className="image" src='https://imgur.com/BDi7aMT.png' alt="Peftul"/>
             <img className="image" src="https://imgur.com/XIQeVp3.png" alt="PokeTeams"/>
-            <img className="image" src="https://imgur.com/Ou2b4X5.png" alt="Oratore"/>
             <img className="image" src="https://imgur.com/Uugvuyt.png" alt="PennyThoughts"/>
+            <img className="image" src="https://imgur.com/Ou2b4X5.png" alt="Oratore"/>
+            <img className="image" src='https://imgur.com/BDi7aMT.png' alt="Peftul"/>
+            <img className="image" src='https://imgur.com/zZhoPU2.png' alt="QuizApp"/>
           </figure>
         </div>
         <span style={{float: 'left'}} className="ss-icon" onClick={() => {galleryspin('-') }}>&lt;</span>
