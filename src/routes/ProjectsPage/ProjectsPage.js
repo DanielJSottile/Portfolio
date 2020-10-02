@@ -5,11 +5,11 @@ const ProjectsPage = (props) => {
   return (
     <Fragment>
       <div>
-      <h2 className="heading fade-in-top">Projects</h2>
-        <Carousel/>
+        <h2 className="heading fade-in-top">Projects</h2>
+        <Carousel />
       </div>
     </Fragment>
   );
-}
+};
 
 export default ProjectsPage;
