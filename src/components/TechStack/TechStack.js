@@ -3,10 +3,13 @@ import './TechStack.css';
 
 const TechStack = (props) => {
 
-  const tech = props.tech.map(tech => {
+  const tech = props.tech.map((tech, i) => {
     return (
-      <li className="tech">
-        <p>{tech[0]} {tech[1]}</p>
+      <li className="tech" key={i}>
+        <div className="row">
+          <p>{tech[0]}</p> 
+          {tech[1]}
+        </div>
       </li>
     )
   })

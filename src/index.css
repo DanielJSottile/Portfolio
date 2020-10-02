@@ -48,6 +48,21 @@ h2 {
   padding: 20px;
 }
 
+.icon {
+  height: 20px;
+}
+
+p {
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
 @media (prefers-color-scheme: dark) {
   body {
     font-family: 'Inconsolata', monospace;
