@@ -94,6 +94,20 @@ export class ContextProvider extends Component {
                 alt="Pre-Commit-icon"
               />
             ),
+            Vercel: (
+              <img
+                className="icon"
+                src={require('../Images/vercel.png')}
+                alt="Vercel-icon"
+              />
+            ),
+            Heroku: (
+              <img
+                className="icon"
+                src={require('../Images/heroku.png')}
+                alt="Heroku-icon"
+              />
+            ),
           },
         },
         {
@@ -135,6 +149,13 @@ export class ContextProvider extends Component {
                 className="icon"
                 src={require('../Images/precommit.png')}
                 alt="Pre-Commit-icon"
+              />
+            ),
+            Vercel: (
+              <img
+                className="icon"
+                src={require('../Images/vercel.png')}
+                alt="Vercel-icon"
               />
             ),
           },
@@ -202,6 +223,20 @@ export class ContextProvider extends Component {
               />
             ),
             'Crypto-js': null,
+            Vercel: (
+              <img
+                className="icon"
+                src={require('../Images/vercel.png')}
+                alt="Vercel-icon"
+              />
+            ),
+            Heroku: (
+              <img
+                className="icon"
+                src={require('../Images/heroku.png')}
+                alt="Heroku-icon"
+              />
+            ),
           },
         },
         {
@@ -262,6 +297,20 @@ export class ContextProvider extends Component {
               />
             ),
             Cypress: null,
+            Vercel: (
+              <img
+                className="icon"
+                src={require('../Images/vercel.png')}
+                alt="Vercel-icon"
+              />
+            ),
+            Heroku: (
+              <img
+                className="icon"
+                src={require('../Images/heroku.png')}
+                alt="Heroku-icon"
+              />
+            ),
           },
         },
         {
@@ -281,6 +330,20 @@ export class ContextProvider extends Component {
             React: <i className="fab fa-react"></i>,
             'Node.js': <i className="fab fa-node-js"></i>,
             Express: null,
+            Vercel: (
+              <img
+                className="icon"
+                src={require('../Images/vercel.png')}
+                alt="Vercel-icon"
+              />
+            ),
+            Heroku: (
+              <img
+                className="icon"
+                src={require('../Images/heroku.png')}
+                alt="Heroku-icon"
+              />
+            ),
           },
         },
       ],
@@ -394,6 +457,20 @@ export class ContextProvider extends Component {
             className="icon"
             src={require('../Images/precommit.png')}
             alt="Pre-Commit-icon"
+          />
+        ),
+        Vercel: (
+          <img
+            className="icon"
+            src={require('../Images/vercel.png')}
+            alt="Vercel-icon"
+          />
+        ),
+        Heroku: (
+          <img
+            className="icon"
+            src={require('../Images/heroku.png')}
+            alt="Heroku-icon"
           />
         ),
         Python: <i className="fab fa-python"></i>,
