@@ -1,38 +1,30 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Nav.css'
+import './Nav.css';
 
-const navLinks = (props) => {
+const navLinks = () => {
   return (
-    <Fragment>
-      <NavLink  
-        className='nav-link'
-        to = '/about' >
+    <>
+      <NavLink className="nav-link" to="/about">
         About <i className="fas fa-book"></i>
-      </NavLink> 
-      <NavLink  
-        className='nav-link'
-        to = '/' >
+      </NavLink>
+      <NavLink className="nav-link" to="/">
         Projects <i className="fas fa-scroll"></i>
       </NavLink>
-      <NavLink  
-        className='nav-link'
-        to = '/contact' >
+      <NavLink className="nav-link" to="/contact">
         Contact <i className="fas fa-address-card"></i>
-      </NavLink> 
-    </Fragment>
-  )
-}
+      </NavLink>
+    </>
+  );
+};
 
 const Nav = () => {
   return (
     <nav className="nav">
       <h1>Daniel Sottile</h1>
-      <section className="navlinks">
-        {navLinks()}
-      </section>
+      <section className="navlinks">{navLinks()}</section>
     </nav>
   );
-}
+};
 
 export default Nav;

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-const Context = React.createContext({
+import React, { Component, createContext } from 'react';
+const Context = createContext({
   projects: [],
   techStack: {},
 });
