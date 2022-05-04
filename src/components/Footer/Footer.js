@@ -1,13 +1,15 @@
-import React, { Fragment } from 'react'
+import React from 'react';
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-    <Fragment>
+    <>
       <footer className="footer">
-        <span>Daniel Sottile Copyright <i className="far fa-copyright"></i> 2020</span>
+        <span>
+          Daniel Sottile Copyright <i className="far fa-copyright"></i> 2020
+        </span>
       </footer>
-    </Fragment>
+    </>
   );
-}
+};
 
 export default Footer;
