@@ -71,7 +71,7 @@ export default function Carousel() {
         tabIndex={0}
         style={{ float: 'left' }}
         className="ss-icon"
-        onClick={() => {}}
+        onClick={() => { galleryspin('-'); }}
         onKeyPress={(e) => {
           if (e.key === 'Enter' || e.key === 'Space') {
             galleryspin('-');
