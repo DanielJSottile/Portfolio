@@ -1,10 +1,9 @@
-import React, { useContext } from 'react';
-import TechStack from '../../components/TechStack/TechStack';
-import ContactLinks from '../../components/ContactLinks/ContactLinks.js';
-import Context from '../../contexts/Context';
+import React from 'react';
+import TechStack from '../../components/TechStack';
+import ContactLinks from '../../components/ContactLinks';
+import { techStack } from '../../data/techstack';
 
-const ContactPage = () => {
-  const { techStack } = useContext(Context);
+function ContactPage() {
   const tech = Object.entries(techStack);
 
   return (
@@ -13,8 +12,8 @@ const ContactPage = () => {
       <div className="contact-stuff">
         <div className="contact-container fade-in-bottom">
           <p>
-            I'm open for job opportunities! Feel free to contact me and check
-            out my various profiles!
+            {`I'm open for job opportunities! Feel free to contact me and check
+            out my various profiles!`}
           </p>
           <ContactLinks />
         </div>
@@ -25,6 +24,6 @@ const ContactPage = () => {
       </div>
     </>
   );
-};
+}
 
 export default ContactPage;

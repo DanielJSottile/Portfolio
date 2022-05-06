@@ -61,7 +61,7 @@ figure#spinner img {
   width: 75%;
   max-width: 525px;
   position: absolute;
-  left: 30%;
+  left: 10%;
   -webkit-transform-origin: 50% 50% -500px;
   -moz-transform-origin: 50% 50% -500px;
   -ms-transform-origin: 50% 50% -500px;
@@ -169,6 +169,7 @@ div#carousel ~ span:hover {
   }
 
   figure#spinner img {
+    left: 20%;
     width: 60%;
   }
 }
@@ -183,6 +184,7 @@ div#carousel ~ span:hover {
   }
 
   figure#spinner img {
+    left: 30%;
     width: 50%;
   }
 }
